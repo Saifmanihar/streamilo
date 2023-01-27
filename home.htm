@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            box-sizing: border-box;
+            border: 5px solid black ;
+            height: 100%;
+            width: 100%;
+        }
+        .upperpart1{
+           display: flex; 
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            margin-left: 500px;
+            margin-top: 24px;
+        }
+        .upperpart1 li{
+           color:black;
+           margin-left: 35px;
+           font-size: 25px;
+           
+        }
+        li:hover{
+            color: white;
+            background-color: orangered;
+            border-radius: 7px;
+            cursor: pointer;
+           margin-top: 6px;
+          
+        }
+        .b1{
+            padding: 12px 15px;
+            border-radius: 15px;
+            margin-left: 16px;
+            background-color: grey;
+            color: aliceblue;
+        }
+        .b1:hover{
+            background-color: rgba(255, 166, 0, 0.841);
+            cursor: pointer;
+            border-radius: 15px;
+            
+        }
+        section{
+            text-align: center;
+            margin-top: 62px;
+            font-size: 50px;
+        }
+        section p{
+            font-size: 25px;
+            margin-top: 15px;
+        }
+        section #b2{
+            border-radius: 9px;
+            padding: 9px 17px;
+            color: grey;
+            background-color: rgb(244, 244, 244);
+        }
+        #b2:hover{
+            background-color: rgb(252, 234, 234);
+            color: black;
+            cursor: crosshair;
+        }
+    </style>
+</head>
+<body>
+    <!--upper part 1-->
+    <div class="upperpart1">
+        <img src="logo.png" alt="">
+        <nav>
+            <ul>
+                <li>product</li>
+                <li>Enterprise</li>
+                <li>pricing</li>
+                <li>community</li>
+                <li>company</li>
+                <li>English</li>
+                <li>Log in</li>
+                <button class="b1">Get started</button>
+            </ul>
+        </nav>
+    </div>
+        <section>
+            <h1>Nothing great is <br> made alone</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Quas, quae?</p>
+            <button id="b2">Get started</button>
+        </section>
+    
+</body>
+</html>

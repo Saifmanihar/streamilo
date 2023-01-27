@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aqua;
+        }
+
+        .card {
+            position: relative;
+            height: 200px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+            padding: 30px 50px;
+            background-color: coral;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            height:350px;
+           
+        }
+
+        .imgbox {
+            height: 250px;
+            width: 250px;
+            transform: translateY(-60px);
+            transition: 0.3s;
+            z-index: 99;
+        }
+
+        img {
+            margin-left: 25px;
+            width: 100%;
+            height: 90%;
+            border-radius: 7px;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .content {
+            padding: 10px 20px;
+            opacity: 0;
+            text-align: center;
+            transform: translateY(-450px);
+            transition: 0.3s;
+        }
+        .card:hover .content {
+            opacity: 1;
+            height: 350px;
+            transform: translateY(-110px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="imgbox">
+            <img src="logo.png" alt="">
+        </div>
+
+        <div class="content">
+            <h2>saif manihar</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Mollitia aut minus eos odio repellat rerum.
+                Quis alias maiores officia fugit ea, corporis, <br> aperiam fugiat cupiditate animi voluptates quas,
+                error
+                reprehenderit!</p>
+        </div>
+       
+    </div>
+   
+</body>
+
+</html>
